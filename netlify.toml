@@ -4,3 +4,7 @@
 
 [template]
   required-extensions = ["neon"]
+
+[environment]
+  POSTGRES_PRISMA_URL = "${NETLIFY_DATABASE_URL}"
+  POSTGRES_URL_NON_POOLING = "${NETLIFY_DATABASE_URL_UNPOOLED}"
