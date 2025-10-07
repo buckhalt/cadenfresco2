@@ -16,5 +16,5 @@ Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testi
 
 ## Deploy button
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/complexdatacollective/Fresco/tree/deployment/netlify?fullConfiguration=true)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/buckhalt/cadenfresco?fullConfiguration=true)
 
