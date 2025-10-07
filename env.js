@@ -44,8 +44,8 @@ export const env = createEnv({
    * middlewares) or client-side so we need to destruct manually.
    */
   runtimeEnv: {
-    POSTGRES_PRISMA_URL: process.env.NETLIFY_DATABASE_URL,
-    POSTGRES_URL_NON_POOLING: process.env.NETLIFY_DATABASE_URL_UNPOOLED,
+    NETLIFY_DATABASE_URL: process.env.NETLIFY_DATABASE_URL,
+    NETLIFY_DATABASE_URL_UNPOOLED: process.env.NETLIFY_DATABASE_URL_UNPOOLED,
     NODE_ENV: process.env.NODE_ENV,
     PUBLIC_URL: process.env.PUBLIC_URL,
     DISABLE_ANALYTICS: process.env.DISABLE_ANALYTICS,
