@@ -1,0 +1,6 @@
+[build]
+  command = "pnpm netlify-build"
+  publish = ".next"
+
+[template]
+  required-extensions = ["neon"]
